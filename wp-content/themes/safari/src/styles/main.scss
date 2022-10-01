@@ -1,0 +1,21 @@
+@import 'init';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+@import "modules/Common/init";
+@import "modules/frontend";
+
+
+main > .block {
+	margin: 60px 0;
+
+	@include media-breakpoint-up(sm) {
+		margin: 120px 0;
+	}
+
+	&:first-child {
+		margin-top: 0;
+	}
+}
+
+
+

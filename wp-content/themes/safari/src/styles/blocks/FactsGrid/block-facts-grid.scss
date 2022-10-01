@@ -1,0 +1,29 @@
+@import "../block-init";
+
+.wp-block-yz-safari-facts-grid {
+	margin: 0;
+	width: 100%;
+}
+
+.block-yz-safari-facts-grid {
+	width: 100%;
+	margin-bottom: 40px;
+
+	.fact {
+		font-size: 30px;
+		line-height: 1.06;
+		font-size: 30px;
+		margin-top: 30px;
+		
+		@include media-breakpoint-up(sm) {
+			font-size: 45px;
+			margin-top: 40px;
+		}
+
+		span {
+			display: block;
+			font-size: 14px;
+			line-height: 1.36;
+		}
+	}
+}

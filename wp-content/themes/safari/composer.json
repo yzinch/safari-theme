@@ -1,0 +1,22 @@
+{
+    "config": {
+        "vendor-dir": "core/vendor",
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "require": {
+        "stoutlogic/acf-builder": "^1.12"
+    },
+    "require-dev": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2",
+        "object-calisthenics/phpcs-calisthenics-rules": "*",
+        "phpcompatibility/php-compatibility": "*",
+        "wp-coding-standards/wpcs": "*"
+    },
+    "scripts" : {
+        "cs": "phpcs -v",
+        "css": "phpcs -v --report=summary",
+        "csf": "phpcbf -v"
+    }
+}

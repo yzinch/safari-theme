@@ -1,0 +1,11 @@
+{
+	"classes": [
+		{
+			"class": "Yz\\Safari\\Block_loader",
+			"name": "Loader"
+		},
+		{
+			"class": "Yz\\Safari\\Menus"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"name": "yz-safari/slider",
+	"title": "Slider",
+	"description": "Slider based on swiper.js",
+	"apiVersion": 2,
+    "category": "theme",
+    "icon": "admin-comments",
+	"style": "file:./assets/css/block-slider.css",
+	"acf": {
+        "mode": "preview",
+        "renderTemplate": "block-slider.php",
+        "postTypes": [ "post", "page" ]
+    },
+	"supports": {
+		"align": [ "wide" ],
+        "anchor": true,
+        "alignContent": false
+	}
+}

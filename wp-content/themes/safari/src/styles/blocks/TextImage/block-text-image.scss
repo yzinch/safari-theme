@@ -1,0 +1,56 @@
+@import "../block-init";
+
+.block-yz-safari-text-image {
+
+	.col-12:last-child {
+		order: -1;
+
+		@include media-breakpoint-up(sm) {
+			order: 1;
+		}
+	}
+
+	img {
+		max-width: 100% !important;
+		height: auto !important;
+	}
+
+	h6 {
+		width: 100%;
+		color: $dark-secondary;
+		margin: 0;
+		font-size: 12px;
+		line-height: 1.36;
+
+		@include media-breakpoint-up(sm) {
+			font-size: 16px;
+		}
+	}
+
+	h2 {
+		width: 100%;
+		color: $black;
+		margin: 0;
+		font-size: 36px;
+        line-height: 1.06;
+		
+		@include media-breakpoint-up(sm) {
+			font-size: 40px;
+		}
+
+		@include media-breakpoint-up(lg) {
+			font-size: 50px;
+		}
+	}
+
+	.acf-innerblocks-container {
+		display: flex;
+		align-items: center;
+		align-content: flex-start;
+		flex-wrap: wrap;
+		
+		@include media-breakpoint-up(lg) {
+			padding-left: 20%;
+		}
+	}
+}

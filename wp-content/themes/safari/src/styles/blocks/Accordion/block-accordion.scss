@@ -1,0 +1,110 @@
+@import "../block-init";
+.block-yz-safari-accordion {
+
+	h2, h3, h4, h5, h6 {
+		margin: 0;
+	}
+
+	h2 {
+		font-size: 36px;
+		line-height: 1.06;
+
+		@include media-breakpoint-up(sm) {
+			font-size: 50px;
+		}
+	}
+
+	h6 {
+		font-size: 16px;
+		line-height: 1.36;
+		color: $dark-secondary;
+
+		@include media-breakpoint-up(sm) {
+			font-size: 22px;
+		}
+	}
+
+	.acf-innerblock-container {
+		margin-bottom: 25px;
+	}
+
+	.accordion {
+		margin-top: 10px;
+	}
+
+	.accordion-body,
+	.accordion-button {
+		background-color: white;
+		font-weight: 400;
+		color: $dark-secondary;
+		font-size: 18px;
+		line-height: 1.06;
+		
+		@include media-breakpoint-up(sm) {
+			font-size: 24px;
+		}
+
+		&:not(.collapsed) {
+			color: $black;
+			background-color: white;
+			outline: none;
+			border: none;
+		}
+
+		&:focus {
+			border: none;
+			box-shadow: none;
+		}
+	}
+
+	.accordion-button {
+        line-height: 1.4;
+
+		&::before,
+		&::after {
+			content: " ";
+			background-image: none;
+			background-color: black;
+			position: absolute;
+			right: 10px;
+		}
+
+		&::before {
+            width: 15px;
+			height: 1px;
+        }
+
+		&::after {
+            height: 15px;
+			width: 1px;
+			right: 17px;
+			transform: rotate(0) !important;
+		}
+		&:not(.collapsed)::after {
+			transform: rotate(270deg) !important;
+		}
+	}
+
+	.accordion-body {
+		font-size: 14px;
+		line-height: 1.36;
+		@include media-breakpoint-up(sm) {
+			font-size: 16px;
+		}
+	}
+
+
+
+	.collapse {
+		display: none;
+		&.show {
+			display: block;
+		}
+	}
+}
+
+.wp-block-yz-safari-accordion {
+	.accordion-header {
+		margin: 0;
+	}
+}

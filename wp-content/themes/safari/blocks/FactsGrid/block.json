@@ -1,0 +1,20 @@
+{
+	"name": "yz-safari/facts-grid",
+	"title": "Facts Grid",
+	"description": "Facts Grid",
+	"apiVersion": 2,
+    "category": "theme",
+    "icon": "admin-comments",
+	"style": "file:./assets/css/block-facts-grid.css",
+	"acf": {
+        "mode": "preview",
+        "renderTemplate": "block-facts-grid.php",
+        "postTypes": [ "post", "page" ]
+    },
+	"parent": [ "yz-safari/text-plus-image" ],
+	"supports": {
+		"align": false,
+        "anchor": true,
+        "alignContent": false 
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"name": "yz-safari/accordion",
+	"title": "Accordion",
+	"description": "Image and text content split",
+	"apiVersion": 2,
+    "category": "theme",
+    "icon": "admin-comments",
+	"style": "file:./assets/css/block-accordion.css",
+	"acf": {
+        "mode": "preview",
+        "renderTemplate": "block-accordion.php",
+        "postTypes": [ "post", "page" ]
+    },
+	"supports": {
+		"align": false,
+        "anchor": true,
+        "alignContent": false,
+		"jsx": true	
+	}
+}

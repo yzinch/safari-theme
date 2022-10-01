@@ -1,0 +1,68 @@
+{
+	"scripts": {
+		"bootstrap": {
+			"filename": "bootstrap.bundle.min.js",
+			"version": "",
+			"dependencies": "",
+			"in_footer": true
+		},
+		"swiper": {
+			"filename": "swiper-bundle.min.js",
+			"version": "",
+			"dependencies": "",
+			"in_footer": true
+		},
+		"main-script": {
+			"filename": "app.js",
+			"version": "",
+			"dependencies": "",
+			"in_footer": true
+		}
+	},
+	"styles": {
+		"main-styles": {
+			"filename": "main.css",
+			"version": "",
+			"dependencies": "",
+			"media": ""
+		},
+		"swiper-styles": {
+			"filename": "swiper-bundle.min.css",
+			"version": "",
+			"dependencies": "",
+			"media": ""
+		}
+	},
+	"editor-styles": {
+		"main-styles": {
+			"filename": "admin.css",
+			"version": "",
+			"dependencies": "",
+			"media": ""
+		},
+		"sipwer-styles": {
+			"filename": "swiper-bundle.min.css",
+			"version": "",
+			"dependencies": "",
+			"media": ""
+		}
+	},
+	"editor-scripts": {
+		"bootstrap": {
+			"filename": "bootstrap.bundle.min.js",
+			"version": "",
+			"dependencies": "",
+			"in_footer": true
+		},
+		"swiper": {
+			"filename": "swiper-bundle.min.js",
+			"version": "",
+			"dependencies": "",
+			"in_footer": true
+		}
+	},
+	"menus": {
+		"primary": "Main menu",
+		"bottom": "Footer menu"
+	}
+}

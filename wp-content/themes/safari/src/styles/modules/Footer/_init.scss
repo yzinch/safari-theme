@@ -1,0 +1,96 @@
+footer {
+	background-color: $black;
+    padding: 32px 0;
+
+	h6 {
+		color: $white;
+		font-size: 14px;
+
+		@include media-breakpoint-up(sm) {
+			font-size: 16px;
+		}
+	}
+
+	a:hover, a:active {
+		color: $gray-500;
+	}
+
+	ul {
+		list-style: none;
+        margin: 0;
+		padding: 0;
+		font-size: 12px;
+
+		@include media-breakpoint-up(sm) {
+			font-size: 14px;
+		}
+	}
+
+	.navbar-brand-white {
+		margin-bottom: 35px;
+		display: block;
+	}
+
+	
+	.footer-menu-2 + .btn-alt {
+		position: absolute;
+		bottom: 0;
+		margin: 0;
+		display: none;
+
+		@include media-breakpoint-up(sm) {
+			display: block;
+		}
+	}
+
+	.btn-alt {
+		display: block;
+		margin: 25px 0;
+		@include media-breakpoint-up(sm) {
+			display: none;
+		}
+	}
+
+	.bottom {
+		border-top: 1px solid #1C1C1C;
+		display: flex;
+		margin-top: 90px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		justify-content: space-between;
+
+		.left {
+			color: $dark-secondary;
+			width: 50%;
+
+			@include media-breakpoint-up(sm) {
+				width: auto;
+			}
+			li {
+				display: inline-block;
+                margin-right: 10px;
+				padding-left: 10px;
+				border-left: 1px solid $dark-secondary;
+
+				&:first-child {
+					border: none;
+					padding: 0;
+				}
+			}
+		}
+
+		.right {
+			a, a:visited {
+				color: $white;
+			}
+			a:hover, a:active {
+				color: $gray-500;
+			}
+			li {
+				font-size: 14px;
+				display: inline-block;
+				margin-left: 17px;
+			}
+		}
+	}
+}

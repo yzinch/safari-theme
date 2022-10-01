@@ -1,0 +1,20 @@
+{
+	"name": "yz-safari/text-plus-image",
+	"title": "Text + Image",
+	"description": "Image and text content split",
+	"apiVersion": 2,
+    "category": "theme",
+    "icon": "admin-comments",
+	"style": "file:./assets/css/block-text-image.css",
+	"acf": {
+        "mode": "preview",
+        "renderTemplate": "block-text-image.php",
+        "postTypes": [ "post", "page" ]
+    },
+	"supports": {
+		"align": false,
+        "anchor": true,
+        "alignContent": false,
+		"jsx": true	
+	}
+}
